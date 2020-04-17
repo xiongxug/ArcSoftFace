@@ -16,5 +16,10 @@ namespace ArcSoftFace
         {
             InitializeComponent();
         }
+
+        private void FormRecord_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

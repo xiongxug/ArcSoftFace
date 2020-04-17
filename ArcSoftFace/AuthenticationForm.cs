@@ -1282,5 +1282,10 @@ namespace ArcSoftFace
             return rel;
         }
         #endregion
+
+        private void rgbVideoSource_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
