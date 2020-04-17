@@ -553,11 +553,40 @@ namespace ArcSoftFace
             {
 
             }
+            importClass();
+            importStudent(comboBoxClass.SelectedIndex);
+            importRecord(comboBoxClass.SelectedIndex);
+
         }
 
         private void buttonClassDelete_Click(object sender, EventArgs e)
         {
+            if(comboBoxClass.SelectedIndex != 0 && records.Count > 0)
+            {
+                string Class = comboBoxClass.SelectedItem.ToString();
+                string[] strArray;
+                strArray = Class.Split(' ');
+                string Cno = strArray[0], Cname = strArray[1];
+                var lines = File.ReadAllLines("..\\..\\..\\Database\\Class\\Class.csv");
+                for (int i = 0; i < lines.Length; i++)
+                {
+                    string Cno_s = lines[i].Split(',')[0];
+                    if (Cno_s == Cno)
+                    {//找到课程号，对应Delete操作
+                        var str_list = lines.ToList();
+                        str_list.RemoveAt(i);
+                        lines = str_list.ToArray();
+                        break;
+                    }
+                }
+                File.WriteAllLines("..\\..\\..\\Database\\Class\\Class.csv", lines);
+                File.Delete("..\\..\\..\\Database\\Class\\List\\" + Cno + ".csv");
 
+                importClass();
+                importStudent(comboBoxClass.SelectedIndex);
+                importRecord(comboBoxClass.SelectedIndex);
+                MessageBox.Show($"Delete success!");
+            }
         }
 
         private void buttonClassEdit_Click(object sender, EventArgs e)
@@ -567,6 +596,9 @@ namespace ArcSoftFace
             {
 
             }
+            importClass();
+            importStudent(comboBoxClass.SelectedIndex);
+            importRecord(comboBoxClass.SelectedIndex);
         }
 
         private void buttonStudentNew_Click(object sender, EventArgs e)

@@ -60,7 +60,6 @@
             this.textClassNo.Name = "textClassNo";
             this.textClassNo.Size = new System.Drawing.Size(213, 25);
             this.textClassNo.TabIndex = 1;
-            this.textClassNo.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // splitContainer1
             // 
@@ -81,7 +80,6 @@
             this.splitContainer1.Panel2.Controls.Add(this.textClassName);
             this.splitContainer1.Panel2.Controls.Add(this.new_edit);
             this.splitContainer1.Panel2.Controls.Add(this.textClassNo);
-            this.splitContainer1.Panel2.Paint += new System.Windows.Forms.PaintEventHandler(this.splitContainer1_Panel2_Paint);
             this.splitContainer1.Size = new System.Drawing.Size(753, 426);
             this.splitContainer1.SplitterDistance = 366;
             this.splitContainer1.TabIndex = 2;
@@ -108,7 +106,6 @@
             this.label1.Size = new System.Drawing.Size(71, 15);
             this.label1.TabIndex = 4;
             this.label1.Text = "classNo:";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // label2
             // 
@@ -154,7 +151,6 @@
             this.Controls.Add(this.splitContainer1);
             this.Name = "FormClass";
             this.Text = "FormClass";
-            this.Load += new System.EventHandler(this.FormClass_Load);
             this.splitContainer1.Panel1.ResumeLayout(false);
             this.splitContainer1.Panel1.PerformLayout();
             this.splitContainer1.Panel2.ResumeLayout(false);

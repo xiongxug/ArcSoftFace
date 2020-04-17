@@ -82,7 +82,6 @@ C:\Users\bear\ArcSoftFace\ArcSoftFace\bin\x64\Debug\zh-cn\ZedGraph.resources.dll
 C:\Users\bear\ArcSoftFace\ArcSoftFace\bin\x64\Debug\zh-tw\ZedGraph.resources.dll
 C:\Users\bear\ArcSoftFace\ArcSoftFace\bin\x64\Debug\Interop.WMPLib.dll
 C:\Users\bear\ArcSoftFace\ArcSoftFace\bin\x64\Debug\AxInterop.WMPLib.dll
-C:\Users\bear\ArcSoftFace\ArcSoftFace\obj\x64\Debug\ArcSoftFace.csprojAssemblyReference.cache
 C:\Users\bear\ArcSoftFace\ArcSoftFace\obj\x64\Debug\Interop.WMPLib.dll
 C:\Users\bear\ArcSoftFace\ArcSoftFace\obj\x64\Debug\AxInterop.WMPLib.dll
 C:\Users\bear\ArcSoftFace\ArcSoftFace\obj\x64\Debug\ArcSoftFace.csproj.ResolveComReference.cache
@@ -97,3 +96,4 @@ C:\Users\bear\ArcSoftFace\ArcSoftFace\obj\x64\Debug\ArcSoftFace.pdb
 C:\Users\bear\ArcSoftFace\ArcSoftFace\obj\x64\Debug\ArcSoftFace.FormClass.resources
 C:\Users\bear\ArcSoftFace\ArcSoftFace\obj\x64\Debug\ArcSoftFace.FormRecord.resources
 C:\Users\bear\ArcSoftFace\ArcSoftFace\obj\x64\Debug\ArcSoftFace.FormStudent.resources
+C:\Users\bear\ArcSoftFace\ArcSoftFace\obj\x64\Debug\ArcSoftFace.csprojAssemblyReference.cache
